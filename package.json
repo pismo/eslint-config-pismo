@@ -6,10 +6,14 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "peerDependencies": {
+  "dependencies": {
     "eslint-config-airbnb-base": "^3.0.1",
     "eslint-plugin-lodash": "^1.2.2",
+    "eslint-plugin-import": "^1.8.0",
     "eslint-plugin-angular": "^0.11.0"
+  },
+  "peerDependencies": {
+    "eslint": "^2.x.x"
   },
   "repository": {
     "type": "git",
