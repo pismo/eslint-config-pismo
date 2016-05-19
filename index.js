@@ -1,6 +1,12 @@
 module.exports = {
   extends: ['airbnb-base'],
   plugins: ['angular', 'lodash'],
+  env: {
+    browser: true,
+    node: true,
+    es6: true,
+    jasmine: true
+  },
   rules: {
     'no-var': ['warn'],
     'no-shadow': ['warn'],
@@ -52,5 +58,12 @@ module.exports = {
     'lodash/prefer-over-quantifier': 2,
     'lodash/path-style': [2, 'as-needed'],
     'lodash/no-extra-args': 2
+  },
+  globals: {
+    $: true,
+    angular: true,
+    module: true,
+    inject: true,
+    _: true
   }
 };
