@@ -1,0 +1,27 @@
+{
+  "name": "eslint-config-pismo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "peerDependencies": {
+    "eslint-config-airbnb-base": "^3.0.1",
+    "eslint-plugin-lodash": "^1.2.2",
+    "eslint-plugin-angular": "^0.11.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pismo/eslint-config-pismo.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pismo/eslint-config-pismo/issues"
+  },
+  "homepage": "https://github.com/pismo/eslint-config-pismo#readme",
+  "devDependencies": {
+    "eslint": "^2.10.2"
+  }
+}
