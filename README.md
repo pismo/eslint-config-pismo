@@ -1,14 +1,13 @@
 # eslint-config-pismo
-Configuração do ESlint para projetos da pismo
+ESlint configurations for projects at Pismo
 
-Basicamente um superset do styleguide do [Airbnb](https://github.com/airbnb/javascript) com plugins para o [lodash](https://github.com/eslint-plugins/eslint-plugin-lodash) e [angular](https://github.com/Gillespie59/eslint-plugin-angular)
+Basically a superset of the styleguide of [Airbnb](https://github.com/airbnb/javascript) with plugins for [lodash](https://github.com/eslint-plugins/eslint-plugin-lodash) and [angular](https://github.com/Gillespie59/eslint-plugin-angular)
 
-## Usando
-Instalando o pacote pegando do github
+## Install
 
-`npm install --save pismo/eslint-config-pismo`
+`npm install --save-dev @pismo/eslint-config-pismo`
 
-Adicionar ao seu `.eslintrc` ou outro arquivo de configuração o pacote
+Add to your `.eslintrc` or other configuration file the package
 ```
 ...
 extends: ["pismo"],
