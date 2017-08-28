@@ -1,7 +1,7 @@
 {
-  "name": "eslint-config-pismo",
+  "name": "@pismo/eslint-config-pismo",
   "version": "1.0.0",
-  "description": "",
+  "description": "ESlint configurations for projects at Pismo",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
