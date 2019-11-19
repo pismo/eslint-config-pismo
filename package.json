@@ -27,8 +27,5 @@
   "homepage": "https://github.com/pismo/eslint-config-pismo#readme",
   "devDependencies": {
     "eslint": "^2.10.2"
-  },
-  "publishConfig": {
-    "access": "restricted"
   }
 }
