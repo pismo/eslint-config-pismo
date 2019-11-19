@@ -1,6 +1,6 @@
 {
   "name": "@pismo/eslint-config-pismo",
-  "version": "1.0.1",
+  "version": "2.0.0",
   "description": "ESlint configurations for projects at Pismo",
   "main": "index.js",
   "scripts": {
